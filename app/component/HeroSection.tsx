@@ -3,7 +3,6 @@ import { Button, Flex, TextField } from "@radix-ui/themes";
 import React, { useState } from "react";
 
 const HeroSection = () => {
-  const [email, setEmail] = useState("");
   return (
     <Flex direction="column">
       <Flex direction="column" align="center" gap="4">

@@ -7,7 +7,7 @@ const WelcomeScreen = () => {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setShowWelcome(false);
-    }, 3000); // Adjust the delay as needed
+    }, 1500);
 
     return () => clearTimeout(timeout);
   }, []);
