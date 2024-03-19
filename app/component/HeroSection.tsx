@@ -27,10 +27,10 @@ const HeroSection = () => {
           culpa qui officia deserunt mollit anim id est laborum.
         </div>
         <Flex className="mt-8" gap="3">
-          <TextField.Root className="w-56">
+          <TextField.Root size="3" className="w-56">
             <TextField.Input placeholder="Enter Your Email" />
           </TextField.Root>
-          <Button>Notify Me</Button>
+          <Button size="3">Notify Me</Button>
         </Flex>
       </Flex>
     </Flex>
