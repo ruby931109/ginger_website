@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <Flex className="w-full py-12 px-72 bg-orange" justify="between">
+    <Flex className="w-full py-12 px-12 lg:px-24 bg-orange" justify="between">
       <div className="text-white font-extrabold text-xl">Ginger</div>
       <div className="text-white">Ginger © 2024</div>
     </Flex>

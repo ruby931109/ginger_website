@@ -5,6 +5,7 @@ import "./globals.css";
 import { Roboto } from "next/font/google";
 import Footer from "./component/Footer";
 import WelcomeScreen from "./component/Welcome";
+import NavBar from "./NavBar";
 
 export const metadata: Metadata = {
   title: "Ginger",
@@ -24,7 +25,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={roboto.className}>
         <Theme appearance="light" accentColor="orange">
-          <main className="bg-white p-32 lg:px-80">{children}</main>
+          <NavBar />
+          <main className="bg-white p-32">{children}</main>
           <WelcomeScreen />
           <Footer />
         </Theme>
