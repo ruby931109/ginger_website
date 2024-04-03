@@ -96,7 +96,7 @@ const HeroSection = () => {
           </Flex>
         </Flex>
       </Flex>
-      <img className="hidden lg:flex" width={1000} src="/ginger.png" />
+      <img className="hidden lg:flex w-2/4" src="/screenshots.png" />
     </Flex>
   );
 };
