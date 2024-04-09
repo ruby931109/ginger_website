@@ -23,7 +23,7 @@ const NavBar = () => {
           <Container>
             <Flex justify="between" align="center" gap="3">
               <Link href="/">
-                <img src="/ginger.png" height={50} width={50} />
+                <strong className="text-5xl text-orange">G</strong>
               </Link>
               <NavLinks />
             </Flex>
@@ -37,8 +37,8 @@ const NavBar = () => {
 const NavLinks = () => {
   const currentPath = usePathname();
   const links = [
-    { label: "About", href: "#about" },
     { label: "Features", href: "#features" },
+    { label: "About", href: "#about" },
   ];
   return (
     <ul className="flex space-x-6">

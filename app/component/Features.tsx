@@ -22,8 +22,8 @@ const Features = () => {
           </div>
           <div className="text-center mt-4">
             With GINGER, you can effortlessly create a family memory album
-            that's accessible anytime, anywhere, allowing you to cherish moments
-            with your loved ones.
+            that&apos;s accessible anytime, anywhere, allowing you to cherish
+            moments with your loved ones.
           </div>
         </Flex>
         <Flex gap="3" direction="column" align="center">
@@ -34,10 +34,10 @@ const Features = () => {
             <strong>AI-enabled</strong> Content Creation
           </div>
           <div className="text-center mt-4">
-            Whether it's showcasing your latest DIY project, sharing your outfit
-            of the day, documenting your gardening endeavors, or preserving your
-            secret cooking recipes, GINGER empowers you to access and curate
-            captivating content tailored to your interests.
+            Whether it&apos;s showcasing your latest DIY project, sharing your
+            outfit of the day, documenting your gardening endeavors, or
+            preserving your secret cooking recipes, GINGER empowers you to
+            access and curate captivating content tailored to your interests.
           </div>
         </Flex>
         <Flex gap="3" direction="column" align="center">

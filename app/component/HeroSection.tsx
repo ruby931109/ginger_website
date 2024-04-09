@@ -42,15 +42,16 @@ const HeroSection = () => {
       <Flex direction="column" align="start">
         <Flex direction="column" gap="6">
           <Flex className="font-extrabold text-6xl">
-            <div className="text-orange">G</div>
-            <div>inger</div>
+            <div className="text-orange">Ginger</div>
           </Flex>
           <div className="text-xl">
             <strong>AI-enabled</strong> content creation tool and community.
           </div>
         </Flex>
         <Flex className="mt-12" direction="column" gap="4">
-          <div className="text-orange font-extrabold text">What's GINGER?</div>
+          <div className="text-orange font-extrabold text">
+            What&apos;s GINGER?
+          </div>
           <div className="text-lg">
             <strong>GINGER</strong> offers a content creation tool and community
             for people in midlife and beyond to share their hobbies and connect
@@ -59,7 +60,7 @@ const HeroSection = () => {
           </div>
           <Flex direction="column" className="mt-2" gap="3">
             {/* <div className="text-lg">Available soon on</div> */}
-            <div className="cursor-pointer">
+            <div className="hidden cursor-pointer">
               <img src="/apple.jpg" width={150} />
             </div>
           </Flex>
